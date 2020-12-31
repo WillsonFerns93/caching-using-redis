@@ -53,6 +53,7 @@ async function getGithubProfile(req, res, next) {
     redis_client.setex(username, 60 * 5, JSON.stringify(data))
   } catch (error) {
     console.log(error)
+    res.send(error)
   }
 }
 
