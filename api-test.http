@@ -1,0 +1,7 @@
+
+### GET user github profile willsonferns93
+GET http://localhost:3000/profile/willsonferns93
+
+
+### GET user github profile willson-spark-rex
+GET http://localhost:3000/profile/willson-spark-rex
